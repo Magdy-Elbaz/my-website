@@ -117,11 +117,11 @@ a {
 
     .navbar .container ul {
         padding: 10px;
-        gap: 15px;
+        gap: 10px;
     }
 
     .navbar .container ul li a {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -865,5 +865,6 @@ a {
     font-size: 20px;
     font-weight: 900;
 }
+
 
 /* End footer */
