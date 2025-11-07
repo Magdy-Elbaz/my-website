@@ -319,7 +319,8 @@ a {
 @media (max-width: 990px) {
     .home .home-info p {
         font-weight: 300;
-        letter-spacing: .5px;
+        letter-spacing: .5;
+        text-align: start;
     }
 }
 
@@ -441,15 +442,15 @@ a {
 
 @keyframes icon-movements {
     0% {
-        transform: translate(-20px,-10px) scale(0.6);
+        transform: translate(-20px, -10px) scale(0.6);
     }
 
     50% {
-        transform: translate(20px,10px) scale(1);
+        transform: translate(20px, 10px) scale(1);
     }
 
     100% {
-        transform: translate(-20px,-10px) scale(0.6);
+        transform: translate(-20px, -10px) scale(0.6);
     }
 }
 
@@ -512,6 +513,12 @@ a {
     font-weight: bold;
     width: 500px;
     text-align: justify;
+}
+
+@media (max-width: 990px) {
+    .about .about-content .col-2 p {
+        text-align: start;
+    }
 }
 
 .about .about-content .col-3 {
