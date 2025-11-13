@@ -614,6 +614,10 @@ a {
     font-size: 40px;
 }
 
+.skills .row img {
+    width: 53px;
+}
+
 .skills .item p {
     margin-top: 5px;
     font-size: 16px;
